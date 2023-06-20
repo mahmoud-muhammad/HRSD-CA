@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" media="all" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" media="all" />
+    <link rel="stylesheet" href="css/animate.min.css" media="all" />
+    <link rel="stylesheet" href="css/ar-SA/layout.css" media="all" />
+    <title>حساب مواطن</title>
+
+</head>
+
+<body>
+   <!-- Header Start -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container navContainer">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="حساب مواطن" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">عن حساب مواطن</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        السياسات
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">السياسات</a></li>
+                            <li><a class="dropdown-item" href="#">مصطلحات مهمة</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">صوتك مسموع</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        المركز الإعلامي
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">المركز الإعلامي</a></li>
+                            <li><a class="dropdown-item" href="#">آخر الأخبار</a></li>
+                            <li><a class="dropdown-item" href="#">انفوجراف</a></li>
+                            <li><a class="dropdown-item" href="#">فيديو</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        الأسئلة الشائعة
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">دليل المستخدم</a></li>
+                            <li><a class="dropdown-item" href="#">التسجيل</a></li>
+                            <li><a class="dropdown-item" href="#">الاهلية</a></li>
+                            <li><a class="dropdown-item" href="#">الإستحقاق</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="userArea">
+                <a href="#" class="loginCTA">التسجيل</a>
+                <a href="#" class="loginCTA">الدخول</a>   
+            </div>
+        </div>
+    </nav>
+    </header>
+    <!-- Header End -->
+   <!-- Inner Pages Start -->
+   <section class="InnerPage">
+    <div class="container">
+        <div class="pageHeading">
+            <h1>أنشىء طلب</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                  <li class="breadcrumb-item"><a href="#">صوتك مسموع</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">أنشىء طلب</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="InnerPageContent">
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="subject">الموضوع<span class="required">*</span></label>
+                            <input type="text" class="form-control" id="subject" aria-describedby="subjectHelp" placeholder="اكتب عنوان الموضوع">
+                            <small id="subjectHelp" class="form-text text-error">مثال على الخطأ في ملىء البيانات</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="name">الإسم<span class="required">*</span></label>
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="اكتب اسمك بالكامل">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="mobile">رقم الجوال<span class="required">*</span></label>
+                            <input type="tel" class="form-control" id="mobile" aria-describedby="mobileHelp" placeholder="+966500000000">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="NID">رقم الهوية<span class="required">*</span></label>
+                            <input type="text" class="form-control" id="NID" aria-describedby="NIDHelp">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="BD">تاريخ الميلاد بالهجري</label>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <select class="form-control" id="Day">
+                                        <option>اختر اليوم</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <select class="form-control" id="Month">
+                                        <option>اختر الشهر</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <select class="form-control" id="Year">
+                                        <option>اختر السنة</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <label for="RequestType">نوع الطلب<span class="required">*</span></label>
+                            <select class="form-control" id="RequestType">
+                                <option>اختر نوع الطلب</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <label for="requestExplain">شرح الطلب<span class="required">*</span></label>
+                            <textarea class="form-control" id="requestExplain" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h2>المرفقات</h2>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <div class="upload-files mb-2">
+                            <label for="exampleFormControlFile1">إضافة ملف</label>
+                            <input type="file" class="form-control-file form-control" id="exampleFormControlFile1">
+                            <button type="button" class="btn btn-primary">إرفع</button>
+                        </div>
+                        <small class="w-100 d-block">يجب أن يكون حجم الملف أقل من <b>2 ميغا بايت</b></small>
+                        <small class="w-100 d-block">أنواع الملفات المسموح بها <b>jpeg, jpg, png, doc, docx, pdf</b></small>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <img src="images/captcha.jpg" />
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">ارسال</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+   </section>
+   <!-- Inner Pages Start -->
+   <!-- Footer Start -->
+   <footer>
+    <div class="container">
+        <div class="footer-top">
+            <div class="social">
+                <h4>للتواصل</h4>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fas fa-phone"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="appDownload">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/Google-Play.svg" alt="Download From Google Play" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/App-Store.svg" alt="Download From App Store" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/App-Gallery.svg" alt="Download From App Gallery" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <ul>
+                <li>
+                    <a href="#">الأسئلة الشائعة</a>
+                </li>
+                <li>
+                    <a href="#">سياسة الخصوصية</a>
+                </li>
+                <li>
+                    <a href="#">سياسة الإستخدام</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </footer>
+   <!-- Footer End -->
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/utilities.js"></script>
+</body>
+
+</html>

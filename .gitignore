@@ -25,3 +25,11 @@
 /.env
 /.editorconfig
 /.gitattributes
+
+# Ignore HTML files
+/HTML/node_modules
+/HTML/package-lock.json
+/HTML/sass
+/HTML/gulpfile.js
+/HTML/css/node_modules
+/HTML/css/en-US/layout.css
